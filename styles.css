@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-image: url(https://th.bing.com/th/id/OIG.kLY.FKmRReFe1j92bCya?pid=ImgGn&w=1024&h=1024&rs=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/**Beginning of header**/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: 20px 57px;
+    background: transparent;
+}
+
+.logo {
+    color: rgb(209, 215, 220);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.logo i {
+    color: red;
+    animation: colorChange 5s infinite;
+}
+
+.lists li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 20px;
+}
+
+.lists a {
+    text-decoration: none;
+    color: rgb(209, 215, 220);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.lists a:hover,
+#download a:hover,
+.paragraphs li a:hover,
+.social-media a:hover {
+    color: orange;
+}
+
+button:not(#train, #view) {
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+button a {
+    text-decoration: none;
+    color: rgb(209, 215, 220);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
+}
+
+/**End of header**/
+
+/**Beginning of comments**/
+
+.comments {
+    margin: 30px 0 70px 0;
+    color: rgb(209, 215, 220);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: center;
+}
+
+.comments h2 {
+    font-style: bold;
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+.comments span {
+    color: green
+}
+
+.comments p {
+    font-size: 1.3rem;
+    margin: 0 90px;
+}
+
+/**End of comments**/
+
+/**Beginning of phone design**/
+
+.phone-design-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(209, 215, 220);
+    margin: auto;
+    width: 70rem;
+    height: 30rem;
+    border-radius: 20px;
+    border: none;
+}
+
+.phone-design {
+    background-color: white;
+    display: flex;
+    width: 50rem;
+    height: 25rem;
+    border-radius: 20px;
+    border: none;
+    padding: 20px 10px;
+}
+
+.part1 {
+    flex: 3;
+    height: auto;
+}
+
+.part1 h1 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.markdown li {
+    margin: 15px 0;
+    list-style: none;
+}
+
+.markdown a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 20px;
+}
+
+#train {
+    background-color: lightgreen;
+    padding: 5px 5px 5px 0;
+    border: none;
+    border-radius: 10px;
+}
+
+.markdown i {
+    padding: 0 10px;
+}
+
+.border-tops {
+    margin: 15px 0;
+    list-style: none;
+}
+
+.border-tops a {
+    text-decoration: none;
+    color: black;
+}
+
+.border-bottom {
+    border-bottom: 7px solid;
+    border-image: linear-gradient(to right, green 70%, red 30%) 1;
+    padding-bottom: 5px;
+}
+
+#light-green {
+    padding-top: 20px;
+    font-size: 1.2rem;
+}
+
+#green {
+    color: green;
+}
+
+#red {
+    color: red;
+}
+
+.part2 {
+    flex: 7;
+    height: auto;
+    position: relative;
+    margin-left: 40px;
+}
+
+.top-left {
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    font-size: 1.2rem;
+}
+
+.top-right {
+    top: 10px;
+    right: 10px;
+    position: absolute;
+}
+
+#view {
+    background-color: rgb(209, 215, 220);
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+#view a {
+    text-decoration: none;
+}
+
+#correct {
+     margin-top: 40px;
+}
+
+#incorrect {
+    padding-top: 80px;
+}
+
+#lighter {
+    font-size: .75rem;
+    font-style: italic;
+}
+
+.grid-container1,
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-items {
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+}
+
+.img-container {
+    display: flex;
+    position: relative;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/**End of phone design**/
+
+/**Beginning of last comment**/
+
+.last-comment {
+    margin: 80px 0;
+    color: rgb(209, 215, 220);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 2.5rem;
+    text-align: center;
+    word-break: break-word;
+}
+
+.last-comment button {
+    margin: 30px 0;
+    padding: 15px 50px;
+    font-size: 1.3rem;
+}
+
+/**End of last comment**/
+
+/**Beginning of footer**/
+
+footer {
+    border-top: 4px solid green;
+    background-color: rgb(209, 215, 220);
+}
+
+.column {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 50px;
+}
+
+.row h4 {
+    padding-bottom: 30px;
+    font-size: 1.3rem;
+}
+
+.row h4 i {
+    color: red;
+}
+
+.paragraphs li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.paragraphs li a {
+    text-decoration: none;
+    color: black;
+}
+
+.social-media i {
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: black;
+}
+
+.black-footer {
+    background-color: cadetblue;
+    text-align: right;
+}
+
+.black-footer p {
+    color: lightgreen;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 1.3rem;
+    animation: colorChange 5s infinite;
+    padding-right: 30px;
+}
+
+@keyframes colorCha3ge {
+    0% { color: blue; }
+    50% { color: red; }
+    100% { color: green; }
+}
+
+.black-footer p span {
+    font-size: 1rem;
+    color: rgb(209, 215, 220)
+}
+
+/**End of footer**/
